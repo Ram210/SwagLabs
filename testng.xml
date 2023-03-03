@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Dell/IdeaProjects/SwagLabs">
+        <classes>
+            <class name="swagLabs_practice2.CartFunctionality">
+                <methods>
+                    <include name="cCVUsingSU"/>
+                    <include name="cCVUsingLU"/>
+                    <include name="cCVUsingPU"/>
+                    <include name="cCVUsingGU"/>
+                </methods>
+            </class>
+            <class name="swagLabs_practice2.LoginForSwagLabs">
+                <methods>
+                    <include name="standardUserTest"/>
+                    <include name="glitchUserTest"/>
+                    <include name="problemUserTest"/>
+                    <include name="lockedUserTest"/>
+                </methods>
+            </class>
+            <class name="swagLabs_practice2.PriceVerification">
+                <methods>
+                    <include name="usingSU"/>
+                    <include name="usingPU"/>
+                    <include name="usingGU"/>
+                    <include name="usingLU"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
